@@ -1,4 +1,5 @@
-{"data" : [
+{
+  "analysis" : [
       {
         "firstName": "ANL0000001",
         "status": "Master",
@@ -49,5 +50,274 @@
         "status": "Master",
         "description": "Component water pump already achieve expected lifetime"
       }
-    ]
+    ],
+  "recommendation": [
+    {
+      "firstName": "RCMM000001",
+      "status": "Master",
+      "description": "Check visual oil & replace oil"
+    },
+    {
+      "firstName": "RCMM000002",
+      "status": "Master",
+      "description": "Check visual oil & replace oil"
+    },
+    {
+      "firstName": "RCMM000003",
+      "status": "Master",
+      "description": "Check visual oil & replace oil"
+    },
+    {
+      "firstName": "RCMM000004",
+      "status": "Master",
+      "description": "Check visual condition return filter & cleanliness oil hydraulic"
+    },
+    {
+      "firstName": "RCMM000005",
+      "status": "Master",
+      "description": "Check actual temperature from engine & monitor panel"
+    },
+    {
+      "firstName": "RCMM000006",
+      "status": "Master",
+      "description": "Check condition oil cooler for clogging maintain condition temperature coolant"
+    },
+    {
+      "firstName": "RCMM000007",
+      "status": "Master",
+      "description": "Rsample Oil Hydraulic & Flushing Oil Hydraulic"
+    },
+    {
+      "firstName": "RCMM000008",
+      "status": "Master",
+      "description": "Check visual actual viscosity oil PTO & using oil TO30"
+    },
+    {
+      "firstName": "RCMM000009",
+      "status": "Master",
+      "description": "Check Oil PTO by visual (color, viscosity)"
+    },
+    {
+      "firstName": "RCMM0000010",
+      "status": "Master",
+      "description": "Check pressure relief valve main pump by monitor panel"
+    }
+  ],
+  "parameter":[
+    {
+      "id": "PARM000002",
+      "parameter": "TAN",
+      "component": "Differential",
+      "source": "PAP OIL",
+      "uom": "mg KOH/g",
+      "unit_model": "PC2000-8"
+    },
+    {
+      "id": "PARM000003",
+      "parameter": "FanPump Torque Max",
+      "component": "Hydraulic",
+      "source": "VMHS",
+      "uom": "Nm",
+      "unit_model": "HD785-7"
+    },
+    {
+      "id": "PARM000004",
+      "parameter": "ISO4406",
+      "component": "Right Final Drive",
+      "source": "PAP OIL",
+      "uom": "particles/ml",
+      "unit_model": "HD785-7"
+    },
+    {
+      "id": "PARM000005",
+      "parameter": "RBR Exh.Temp Max",
+      "component": "Engine",
+      "source": "VMHS",
+      "uom": "Nm",
+      "unit_model": "PC2000-8"
+    },
+    {
+      "id": "PARM000006",
+      "parameter": "Engine Power Ave",
+      "component": "Engine",
+      "source": "VMHS",
+      "uom": "Nm",
+      "unit_model": "PC2000-8"
+    },
+    {
+      "id": "PARM000007",
+      "parameter": "E.Oil P.Lo_Min",
+      "component": "Engine",
+      "source": "VMHS",
+      "uom": "degC",
+      "unit_model": "HD785-7"
+    },
+    {
+      "id": "PARM000008",
+      "parameter": "Fuel Rate",
+      "component": "Hydraulic",
+      "source": "VMHS",
+      "uom": "Liter/h",
+      "unit_model": "PC2000-8"
+    },
+    {
+      "id": "PARM000009",
+      "parameter": "E.Oil P.Lo_Min",
+      "component": "Engine",
+      "source": "VMHS",
+      "uom": "degC",
+      "unit_model": "HD785-7"
+    },
+    {
+      "id": "PARM000010",
+      "parameter": "Engine Power Ave",
+      "component": "Engine",
+      "source": "VMHS",
+      "uom": "Nm",
+      "unit_model": "PC2000-8"
+    }
+  ],
+  "threshold":[
+    {
+      "id": "THRS000001",
+      "parameter": "Auto GRS P.Max",
+      "component": "Engine",
+      "uom": "km/cm2",
+      "unit_model": "PC2000-8",
+      "cautbv": "-",
+      "critbv": "-",
+      "cauttv": 95,
+      "crittv": 100,
+      "lu": "14 Juli 19",
+      "prio": 1,
+      "source": "VMHS"
+    },
+    {
+      "id": "THRS000002",
+      "parameter": "TAN",
+      "component": "Differential",
+      "uom": "mg KOH/g",
+      "unit_model": "PC2000-8",
+      "cautbv": "-",
+      "critbv": "-",
+      "cauttv": 4,
+      "crittv": 3,
+      "lu": "14 Juli 19",
+      "prio": 2,
+      "source": "PAP OIL"
+    },
+    {
+      "id": "THRS000003",
+      "parameter": "FanPump Torque Max",
+      "component": "Hydraulic",
+      "uom": "Nm",
+      "unit_model": "HD785-7",
+      "cautbv": "-",
+      "critbv": "-",
+      "cauttv": 80,
+      "crittv": 90,
+      "lu": "14 Juli 19",
+      "prio": 3,
+      "source": "VMHS"
+    },
+    {
+      "id": "THRS000004",
+      "parameter": "ISO4406",
+      "component": "Right Final Drive",
+      "uom": "particles/ml",
+      "unit_model": "HD785-7",
+      "cautbv": 3,
+      "critbv": 3,
+      "cauttv": "-",
+      "crittv": "-",
+      "lu": "14 Juli 19",
+      "prio": 3,
+      "source": "PAP OIL"
+    },
+    {
+      "id": "THRS000005",
+      "parameter": "RBR Exh.Temp Max",
+      "component": "Engine",
+      "uom": "Nm",
+      "unit_model": "PC2000-8",
+      "cautbv": 100,
+      "critbv": 80,
+      "cauttv": "-",
+      "crittv": "-",
+      "lu": "14 Juli 19",
+      "prio": 2,
+      "source": "VMHS"
+    },
+    {
+      "id": "THRS000006",
+      "parameter": "Engine Power Ave",
+      "component": "Engine",
+      "uom": "Nm",
+      "unit_model": "PC2000-8",
+      "cautbv": "-",
+      "critbv": "-",
+      "cauttv": 3,
+      "crittv": 3,
+      "lu": "14 Juli 19",
+      "prio": 3,
+      "source": "VMHS"
+    },
+    {
+      "id": "THRS000007",
+      "parameter": "E.Oil P.Lo_Min",
+      "component": "Engine",
+      "uom": "degC",
+      "unit_model": "HD785-7",
+      "cautbv": 85,
+      "critbv": 90,
+      "cauttv": "-",
+      "crittv": "-",
+      "lu": "14 Juli 19",
+      "prio": 1,
+      "source": "VMHS"
+    },
+    {
+      "id": "THRS000008",
+      "parameter": "Fuel Rate",
+      "component": "Hydraulic",
+      "uom": "Liter/h",
+      "unit_model": "PC2000-8",
+      "cautbv": "-",
+      "critbv": "-",
+      "cauttv": 5,
+      "crittv": 4,
+      "lu": "14 Juli 19",
+      "prio": 1,
+      "source": "VMHS"
+    },
+    {
+      "id": "THRS000009",
+      "parameter": "E.Oil P.Lo_Min",
+      "component": "Engine",
+      "uom": "degC",
+      "unit_model": "HD785-7",
+      "cautbv": 90,
+      "critbv": 60,
+      "cauttv": "-",
+      "crittv": "-",
+      "lu": "14 Juli 19",
+      "prio": 3,
+      "source": "VMHS"
+    },
+    {
+      "id": "THRS000010",
+      "parameter": "Engine Power Ave",
+      "component": "Engine",
+      "uom": "Nm",
+      "unit_model": "PC2000-8",
+      "cautbv": 1,
+      "critbv": 1,
+      "cauttv": "-",
+      "crittv": "-",
+      "lu": "14 Juli 19",
+      "prio": 1,
+      "source": "VMHS"
+    }
+  ]
+  
 }
