@@ -1,56 +1,395 @@
 {
-  "analysis" : [
+  "analysis" : {
+    "TotalItems": 12,
+    "PageNumber": 1,
+    "PageSize": 10,
+    "TotalPages": 2,
+    "HasPreviousPage": false,
+    "HasNextPage": true,
+    "NextPageNumber": 2,
+    "PreviousPageNumber": 1,
+    "Data": [
       {
-        "firstName": "ANL0000001",
-        "status": "Master",
-        "description": "Contamination coolant during filling oil process"
+        "Id": "d9d57724-c0da-e911-89a1-00bb6047d42e",
+        "Code": "",
+        "Description": "coba ini dong",
+        "Status": 1,
+        "CreatedBy": null,
+        "CreatedDate": "2019-09-19T09:30:40.19",
+        "UpdatedBy": null,
+        "UpdatedDate": "2019-09-19T09:30:40.19"
       },
       {
-        "firstName": "ANL0000001",
-        "status": "Master",
-        "description": "Hose blowby clogged"
+        "Id": "e4895267-beda-e911-89a1-00bb6047d42e",
+        "Code": "ANL0000011",
+        "Description": "testing dong",
+        "Status": 1,
+        "CreatedBy": null,
+        "CreatedDate": "2019-09-19T09:18:13.36",
+        "UpdatedBy": null,
+        "UpdatedDate": "2019-09-19T09:18:13.36"
       },
       {
-        "firstName": "ANL0000001",
-        "status": "Master",
-        "description": "Oil condition dirty (high ISO cleanliness)"
+        "Id": "a886a0e0-38d6-e911-89a1-00bb6047d42e",
+        "Code": "ANL0000001",
+        "Description": "string2",
+        "Status": 0,
+        "CreatedBy": null,
+        "CreatedDate": null,
+        "UpdatedBy": null,
+        "UpdatedDate": null
       },
       {
-        "firstName": "ANL0000001",
-        "status": "Master",
-        "description": "If data found intermitten possibility from electric problem"
+        "Id": "441c5af7-38d6-e911-89a1-00bb6047d42e",
+        "Code": "ANL0000002",
+        "Description": "string1",
+        "Status": 0,
+        "CreatedBy": null,
+        "CreatedDate": null,
+        "UpdatedBy": null,
+        "UpdatedDate": null
       },
       {
-        "firstName": "ANL0000001",
-        "status": "Master",
-        "description": "Hydraulic oil temperature overheat"
+        "Id": "ebd387a4-39d6-e911-89a1-00bb6047d42e",
+        "Code": "ANL0000003",
+        "Description": "string3",
+        "Status": 0,
+        "CreatedBy": null,
+        "CreatedDate": null,
+        "UpdatedBy": null,
+        "UpdatedDate": null
       },
       {
-        "firstName": "ANL0000001",
-        "status": "Master",
-        "description": "Lack of setting main relief valve"
+        "Id": "a192f970-01d9-e911-89a1-00bb6047d42e",
+        "Code": "ANL0000004",
+        "Description": "Testing1",
+        "Status": 0,
+        "CreatedBy": null,
+        "CreatedDate": null,
+        "UpdatedBy": null,
+        "UpdatedDate": null
       },
       {
-        "firstName": "ANL0000001",
-        "status": "Master",
-        "description": "DATA to High (810 s/d ~ )°C : resistant sensor problem"
+        "Id": "e2c74a77-01d9-e911-89a1-00bb6047d42e",
+        "Code": "ANL0000005",
+        "Description": "Testing9",
+        "Status": 0,
+        "CreatedBy": null,
+        "CreatedDate": null,
+        "UpdatedBy": null,
+        "UpdatedDate": null
       },
       {
-        "firstName": "ANL0000001",
-        "status": "Master",
-        "description": "High Water Content"
+        "Id": "e3c74a77-01d9-e911-89a1-00bb6047d42e",
+        "Code": "ANL0000006",
+        "Description": "Tester",
+        "Status": 0,
+        "CreatedBy": null,
+        "CreatedDate": null,
+        "UpdatedBy": null,
+        "UpdatedDate": null
       },
       {
-        "firstName": "ANL0000001",
-        "status": "Master",
-        "description": "High Copper (Cu)"
+        "Id": "70019781-01d9-e911-89a1-00bb6047d42e",
+        "Code": "ANL0000007",
+        "Description": "Testering",
+        "Status": 0,
+        "CreatedBy": null,
+        "CreatedDate": null,
+        "UpdatedBy": null,
+        "UpdatedDate": null
       },
       {
-        "firstName": "ANL0000001",
-        "status": "Master",
-        "description": "Component water pump already achieve expected lifetime"
+        "Id": "71019781-01d9-e911-89a1-00bb6047d42e",
+        "Code": "ANL0000008",
+        "Description": "Tester dong",
+        "Status": 0,
+        "CreatedBy": null,
+        "CreatedDate": null,
+        "UpdatedBy": null,
+        "UpdatedDate": null
+      }
+    ]
+  },
+  "analysisDetail":{
+    "Id": "441c5af7-38d6-e911-89a1-00bb6047d42e",
+    "Code": "ANL0000002",
+    "Description": "string1",
+    "Status": 0,
+    "CreatedBy": null,
+    "CreatedDate": null,
+    "UpdatedBy": null,
+    "UpdatedDate": null
+  },
+  "troubleshooting":{
+    "TotalItems": 17,
+    "PageNumber": 1,
+    "PageSize": 10,
+    "TotalPages": 2,
+    "HasPreviousPage": false,
+    "HasNextPage": true,
+    "NextPageNumber": 2,
+    "PreviousPageNumber": 1,
+    "Data": [
+      {
+        "Id": "b42d5c1c-5bd9-e911-89a1-00bb6047d42e",
+        "Code": "TRS0000045",
+        "Analysis": [
+          {
+            "Id": "a886a0e0-38d6-e911-89a1-00bb6047d42e",
+            "Code": "ANL0000001",
+            "Description": "string2"
+          }
+        ],
+        "Recommendation": [
+          {
+            "Id": "2e4e7ccf-01d9-e911-89a1-00bb6047d42e",
+            "Code": "RCM0000005",
+            "Description": "strang"
+          },
+          {
+            "Id": "2f4e7ccf-01d9-e911-89a1-00bb6047d42e",
+            "Code": "RCM0000006",
+            "Description": "strange"
+          }
+        ],
+        "CreatedBy": null,
+        "CreatedDate": "2019-09-17T14:54:56.2533333",
+        "UpdatedBy": null,
+        "UpdatedDate": "2019-09-17T14:54:56.2533333"
+      },
+      {
+        "Id": "7b3acf0c-5bd9-e911-89a1-00bb6047d42e",
+        "Code": "TRS0000044",
+        "Analysis": [
+          {
+            "Id": "a886a0e0-38d6-e911-89a1-00bb6047d42e",
+            "Code": "ANL0000001",
+            "Description": "string2"
+          }
+        ],
+        "Recommendation": [
+          {
+            "Id": "2e4e7ccf-01d9-e911-89a1-00bb6047d42e",
+            "Code": "RCM0000005",
+            "Description": "strang"
+          }
+        ],
+        "CreatedBy": null,
+        "CreatedDate": "2019-09-17T14:54:30.1633333",
+        "UpdatedBy": null,
+        "UpdatedDate": "2019-09-17T14:54:30.1633333"
+      },
+      {
+        "Id": "c5803148-5ad9-e911-89a1-00bb6047d42e",
+        "Code": "TRS0000043",
+        "Analysis": [
+          {
+            "Id": "a886a0e0-38d6-e911-89a1-00bb6047d42e",
+            "Code": "ANL0000001",
+            "Description": "string2"
+          }
+        ],
+        "Recommendation": [
+          {
+            "Id": "de67dcb4-3bd6-e911-89a1-00bb6047d42e",
+            "Code": "RCM0000003",
+            "Description": "string2"
+          }
+        ],
+        "CreatedBy": null,
+        "CreatedDate": "2019-09-17T14:49:07.1666667",
+        "UpdatedBy": null,
+        "UpdatedDate": "2019-09-17T14:49:07.1666667"
+      },
+      {
+        "Id": "c4803148-5ad9-e911-89a1-00bb6047d42e",
+        "Code": "TRS0000042",
+        "Analysis": [
+          {
+            "Id": "a886a0e0-38d6-e911-89a1-00bb6047d42e",
+            "Code": "ANL0000001",
+            "Description": "string2"
+          }
+        ],
+        "Recommendation": [
+          {
+            "Id": "de67dcb4-3bd6-e911-89a1-00bb6047d42e",
+            "Code": "RCM0000003",
+            "Description": "string2"
+          }
+        ],
+        "CreatedBy": null,
+        "CreatedDate": "2019-09-17T14:49:00.2966667",
+        "UpdatedBy": null,
+        "UpdatedDate": "2019-09-17T14:49:00.2966667"
+      },
+      {
+        "Id": "68250318-5ad9-e911-89a1-00bb6047d42e",
+        "Code": "TRS0000041",
+        "Analysis": [
+          {
+            "Id": "a886a0e0-38d6-e911-89a1-00bb6047d42e",
+            "Code": "ANL0000001",
+            "Description": "string2"
+          }
+        ],
+        "Recommendation": [
+          {
+            "Id": "de67dcb4-3bd6-e911-89a1-00bb6047d42e",
+            "Code": "RCM0000003",
+            "Description": "string2"
+          }
+        ],
+        "CreatedBy": null,
+        "CreatedDate": "2019-09-17T14:47:41.0066667",
+        "UpdatedBy": null,
+        "UpdatedDate": "2019-09-17T14:47:41.0066667"
+      },
+      {
+        "Id": "67250318-5ad9-e911-89a1-00bb6047d42e",
+        "Code": "TRS0000040",
+        "Analysis": [
+          {
+            "Id": "a886a0e0-38d6-e911-89a1-00bb6047d42e",
+            "Code": "ANL0000001",
+            "Description": "string2"
+          }
+        ],
+        "Recommendation": [
+          {
+            "Id": "de67dcb4-3bd6-e911-89a1-00bb6047d42e",
+            "Code": "RCM0000003",
+            "Description": "string2"
+          }
+        ],
+        "CreatedBy": null,
+        "CreatedDate": "2019-09-17T14:47:39.4633333",
+        "UpdatedBy": null,
+        "UpdatedDate": "2019-09-17T14:47:39.4633333"
+      },
+      {
+        "Id": "45e4970e-5ad9-e911-89a1-00bb6047d42e",
+        "Code": "TRS0000039",
+        "Analysis": [
+          {
+            "Id": "a886a0e0-38d6-e911-89a1-00bb6047d42e",
+            "Code": "ANL0000001",
+            "Description": "string2"
+          }
+        ],
+        "Recommendation": [
+          {
+            "Id": "dd67dcb4-3bd6-e911-89a1-00bb6047d42e",
+            "Code": "RCM0000002",
+            "Description": "string1"
+          }
+        ],
+        "CreatedBy": null,
+        "CreatedDate": "2019-09-17T14:47:32.7366667",
+        "UpdatedBy": null,
+        "UpdatedDate": "2019-09-17T14:47:32.7366667"
+      },
+      {
+        "Id": "44e4970e-5ad9-e911-89a1-00bb6047d42e",
+        "Code": "TRS0000038",
+        "Analysis": [
+          {
+            "Id": "a886a0e0-38d6-e911-89a1-00bb6047d42e",
+            "Code": "ANL0000001",
+            "Description": "string2"
+          }
+        ],
+        "Recommendation": [
+          {
+            "Id": "89cce9ac-3bd6-e911-89a1-00bb6047d42e",
+            "Code": "RCM0000001",
+            "Description": "string"
+          }
+        ],
+        "CreatedBy": null,
+        "CreatedDate": "2019-09-17T14:47:23.66",
+        "UpdatedBy": null,
+        "UpdatedDate": "2019-09-17T14:47:23.66"
+      },
+      {
+        "Id": "20a3eb06-5ad9-e911-89a1-00bb6047d42e",
+        "Code": "TRS0000037",
+        "Analysis": [
+          {
+            "Id": "a886a0e0-38d6-e911-89a1-00bb6047d42e",
+            "Code": "ANL0000001",
+            "Description": "string2"
+          }
+        ],
+        "Recommendation": [
+          {
+            "Id": "189efebe-01d9-e911-89a1-00bb6047d42e",
+            "Code": "RCM0000004",
+            "Description": "string10"
+          }
+        ],
+        "CreatedBy": null,
+        "CreatedDate": "2019-09-17T14:47:10.79",
+        "UpdatedBy": null,
+        "UpdatedDate": "2019-09-17T14:47:10.79"
+      },
+      {
+        "Id": "bd6b5640-46d9-e911-89a1-00bb6047d42e",
+        "Code": "TRS0000019",
+        "Analysis": [
+          {
+            "Id": "a886a0e0-38d6-e911-89a1-00bb6047d42e",
+            "Code": "ANL0000001",
+            "Description": "string2"
+          },
+          {
+            "Id": "441c5af7-38d6-e911-89a1-00bb6047d42e",
+            "Code": "ANL0000002",
+            "Description": "string1"
+          }
+        ],
+        "Recommendation": [
+          {
+            "Id": "89cce9ac-3bd6-e911-89a1-00bb6047d42e",
+            "Code": "RCM0000001",
+            "Description": "string"
+          }
+        ],
+        "CreatedBy": null,
+        "CreatedDate": "2019-09-17T12:25:37.1833333",
+        "UpdatedBy": null,
+        "UpdatedDate": "2019-09-17T12:25:37.1833333"
+      }
+    ]
+  },
+  "troubleshootingDetail":{
+    "Id": "b42d5c1c-5bd9-e911-89a1-00bb6047d42e",
+    "Code": "TRS0000045",
+    "Analysis": [
+      {
+        "Id": "a886a0e0-38d6-e911-89a1-00bb6047d42e",
+        "Code": "ANL0000001",
+        "Description": "string2"
       }
     ],
+    "Recommendation": [
+      {
+        "Id": "2e4e7ccf-01d9-e911-89a1-00bb6047d42e",
+        "Code": "RCM0000005",
+        "Description": "strang"
+      },
+      {
+        "Id": "2f4e7ccf-01d9-e911-89a1-00bb6047d42e",
+        "Code": "RCM0000006",
+        "Description": "strange"
+      }
+    ],
+    "CreatedBy": null,
+    "CreatedDate": "2019-09-17T14:54:56.2533333",
+    "UpdatedBy": null,
+    "UpdatedDate": "2019-09-17T14:54:56.2533333"
+  },
   "recommendation": [
     {
       "firstName": "RCMM000001",
