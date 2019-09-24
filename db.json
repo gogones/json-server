@@ -111,16 +111,6 @@
       }
     ]
   },
-  "analysisDetail":{
-    "Id": "441c5af7-38d6-e911-89a1-00bb6047d42e",
-    "Code": "ANL0000002",
-    "Description": "string1",
-    "Status": 0,
-    "CreatedBy": null,
-    "CreatedDate": null,
-    "UpdatedBy": null,
-    "UpdatedDate": null
-  },
   "troubleshooting":{
     "TotalItems": 17,
     "PageNumber": 1,
@@ -362,33 +352,5 @@
         "UpdatedDate": "2019-09-17T12:25:37.1833333"
       }
     ]
-  },
-  "troubleshootingDetail":{
-    "Id": "b42d5c1c-5bd9-e911-89a1-00bb6047d42e",
-    "Code": "TRS0000045",
-    "Analysis": [
-      {
-        "Id": "a886a0e0-38d6-e911-89a1-00bb6047d42e",
-        "Code": "ANL0000001",
-        "Description": "string2"
-      }
-    ],
-    "Recommendation": [
-      {
-        "Id": "2e4e7ccf-01d9-e911-89a1-00bb6047d42e",
-        "Code": "RCM0000005",
-        "Description": "strang"
-      },
-      {
-        "Id": "2f4e7ccf-01d9-e911-89a1-00bb6047d42e",
-        "Code": "RCM0000006",
-        "Description": "strange"
-      }
-    ],
-    "CreatedBy": null,
-    "CreatedDate": "2019-09-17T14:54:56.2533333",
-    "UpdatedBy": null,
-    "UpdatedDate": "2019-09-17T14:54:56.2533333"
   }
-  
 }
