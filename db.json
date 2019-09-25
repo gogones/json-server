@@ -1,14 +1,5 @@
 {
-  "analysis" : {
-    "TotalItems": 12,
-    "PageNumber": 1,
-    "PageSize": 10,
-    "TotalPages": 2,
-    "HasPreviousPage": false,
-    "HasNextPage": true,
-    "NextPageNumber": 2,
-    "PreviousPageNumber": 1,
-    "Data": [
+  "analysis" : [
       {
         "Id": "d9d57724-c0da-e911-89a1-00bb6047d42e",
         "Code": "",
@@ -109,6 +100,5 @@
         "UpdatedBy": null,
         "UpdatedDate": null
       }
-    ]
-  }
+  ]
 }

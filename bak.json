@@ -1,0 +1,114 @@
+{
+    "analysis" : {
+      "TotalItems": 12,
+      "PageNumber": 1,
+      "PageSize": 10,
+      "TotalPages": 2,
+      "HasPreviousPage": false,
+      "HasNextPage": true,
+      "NextPageNumber": 2,
+      "PreviousPageNumber": 1,
+      "Data": [
+        {
+          "Id": "d9d57724-c0da-e911-89a1-00bb6047d42e",
+          "Code": "",
+          "Description": "coba ini dong",
+          "Status": 1,
+          "CreatedBy": null,
+          "CreatedDate": "2019-09-19T09:30:40.19",
+          "UpdatedBy": null,
+          "UpdatedDate": "2019-09-19T09:30:40.19"
+        },
+        {
+          "Id": "e4895267-beda-e911-89a1-00bb6047d42e",
+          "Code": "ANL0000011",
+          "Description": "testing dong",
+          "Status": 1,
+          "CreatedBy": null,
+          "CreatedDate": "2019-09-19T09:18:13.36",
+          "UpdatedBy": null,
+          "UpdatedDate": "2019-09-19T09:18:13.36"
+        },
+        {
+          "Id": "a886a0e0-38d6-e911-89a1-00bb6047d42e",
+          "Code": "ANL0000001",
+          "Description": "string2",
+          "Status": 0,
+          "CreatedBy": null,
+          "CreatedDate": null,
+          "UpdatedBy": null,
+          "UpdatedDate": null
+        },
+        {
+          "Id": "441c5af7-38d6-e911-89a1-00bb6047d42e",
+          "Code": "ANL0000002",
+          "Description": "string1",
+          "Status": 0,
+          "CreatedBy": null,
+          "CreatedDate": null,
+          "UpdatedBy": null,
+          "UpdatedDate": null
+        },
+        {
+          "Id": "ebd387a4-39d6-e911-89a1-00bb6047d42e",
+          "Code": "ANL0000003",
+          "Description": "string3",
+          "Status": 0,
+          "CreatedBy": null,
+          "CreatedDate": null,
+          "UpdatedBy": null,
+          "UpdatedDate": null
+        },
+        {
+          "Id": "a192f970-01d9-e911-89a1-00bb6047d42e",
+          "Code": "ANL0000004",
+          "Description": "Testing1",
+          "Status": 0,
+          "CreatedBy": null,
+          "CreatedDate": null,
+          "UpdatedBy": null,
+          "UpdatedDate": null
+        },
+        {
+          "Id": "e2c74a77-01d9-e911-89a1-00bb6047d42e",
+          "Code": "ANL0000005",
+          "Description": "Testing9",
+          "Status": 0,
+          "CreatedBy": null,
+          "CreatedDate": null,
+          "UpdatedBy": null,
+          "UpdatedDate": null
+        },
+        {
+          "Id": "e3c74a77-01d9-e911-89a1-00bb6047d42e",
+          "Code": "ANL0000006",
+          "Description": "Tester",
+          "Status": 0,
+          "CreatedBy": null,
+          "CreatedDate": null,
+          "UpdatedBy": null,
+          "UpdatedDate": null
+        },
+        {
+          "Id": "70019781-01d9-e911-89a1-00bb6047d42e",
+          "Code": "ANL0000007",
+          "Description": "Testering",
+          "Status": 0,
+          "CreatedBy": null,
+          "CreatedDate": null,
+          "UpdatedBy": null,
+          "UpdatedDate": null
+        },
+        {
+          "Id": "71019781-01d9-e911-89a1-00bb6047d42e",
+          "Code": "ANL0000008",
+          "Description": "Tester dong",
+          "Status": 0,
+          "CreatedBy": null,
+          "CreatedDate": null,
+          "UpdatedBy": null,
+          "UpdatedDate": null
+        }
+      ]
+    }
+  }
